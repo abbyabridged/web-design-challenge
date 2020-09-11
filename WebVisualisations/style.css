@@ -23,6 +23,13 @@ h1,h2 {
     font-weight: bold;
 }
 
+h3 {
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
 .thumbnail {
     display: inline;
     max-width: 50%;
