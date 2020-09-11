@@ -1,4 +1,4 @@
-a.navbar-brand{
+a.navbar-brand {
     background-color: lightseagreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -44,3 +44,35 @@ h1,h2 {
     margin-top: 30px;
 }
 
+.visualisation {
+    max-width: 100%;
+}
+
+#active-image {
+    border: 2px solid lightseagreen;
+}
+
+
+
+/* Small screen styling */
+
+@media (max-width:767.98px){
+    
+    body {
+        background-color: white !important;
+    }
+    
+    .navbar.bg-light {
+        background-color: lightseagreen !important;
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+
+    .navbar{
+        padding: 0px;
+    }
+
+
+}
